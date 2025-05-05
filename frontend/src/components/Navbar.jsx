@@ -1,37 +1,64 @@
 import { useState } from "react";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState("home");
 
-  const handleClick = () => {};
   return (
     <>
-      <div className="W-[1300PX]  px-[70px] mt-[40px] mb-[40px]">
-        <div className=" text-white mx-auto bg-[#171717] rounded-[82px]">
-          <div>
-            <ul className="flex justify-between items-center p-[10px] text-xl ">
-              <li
-                className={`py-[20px] px-[40px]  rounded-4xl  ${
-                  isActive ? " bg-[#FD853A]" : ""
-                }`}
-              >
-                Home
-              </li>
-              <li
-                className={`py-[20px] px-[40px]  rounded-4xl  ${
-                  isActive ? " bg-[#FD853A]" : ""
-                }`}
-              >
-                About
-              </li>
-              <li className="py-[20px] px-[40px]  rounded-4xl  ">service</li>
-              <li className="py-[20px] px-[90px]  rounded-4xl  ">Yuvraj</li>
-              <li className="py-[20px] px-[40px]  rounded-4xl  ">Resume</li>
-              <li className="py-[20px] px-[40px]  rounded-4xl  ">Project</li>
-              <li className="py-[20px] px-[40px]  rounded-4xl  ">Contact</li>
-            </ul>
-          </div>
-        </div>
+      <div className="max-w-[1300px] mx-auto mt-[20px] mb-[40px]">
+        <ul className="flex justify-between items-center p-[10px] text-xl text-white mx-auto bg-[#171717] rounded-[82px]">
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "home" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("home")}
+          >
+            Home
+          </li>
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "about" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("about")}
+          >
+            About
+          </li>
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "service" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("service")}
+          >
+            service
+          </li>
+          <li className="py-[20px] px-[90px]  rounded-4xl  cursor-pointer border border-[#FD853A] borderbg ">
+            Yuvraj
+          </li>
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "resume" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("resume")}
+          >
+            Resume
+          </li>
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "project" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("project")}
+          >
+            Project
+          </li>
+          <li
+            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+              isActive === "contact" ? " bg-[#FD853A]" : ""
+            }`}
+            onClick={() => setIsActive("contact")}
+          >
+            Contact
+          </li>
+        </ul>
       </div>
     </>
   );
