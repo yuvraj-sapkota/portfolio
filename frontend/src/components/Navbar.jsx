@@ -5,10 +5,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="max-w-[1300px] mx-auto mt-[20px] mb-[40px]">
+      <div className="max-w-[1300px] mx-auto mt-[10px] mb-[25px]">
         <ul className="flex justify-between items-center p-[10px] text-xl text-white mx-auto bg-[#171717] rounded-[82px]">
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "home" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("home")}
@@ -16,7 +16,7 @@ const Navbar = () => {
             Home
           </li>
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "about" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("about")}
@@ -24,18 +24,18 @@ const Navbar = () => {
             About
           </li>
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "service" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("service")}
           >
             service
           </li>
-          <li className="py-[20px] px-[90px]  rounded-4xl  cursor-pointer border border-[#FD853A] borderbg ">
+          <li className="py-[10px] px-[90px]  rounded-4xl  cursor-pointer border border-[#FD853A] borderbg ">
             Yuvraj
           </li>
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "resume" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("resume")}
@@ -43,7 +43,7 @@ const Navbar = () => {
             Resume
           </li>
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "project" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("project")}
@@ -51,7 +51,7 @@ const Navbar = () => {
             Project
           </li>
           <li
-            className={`py-[20px] px-[40px]  rounded-4xl  cursor-pointer  ${
+            className={`py-[10px] px-[20px]  rounded-4xl  cursor-pointer  ${
               isActive === "contact" ? " bg-[#FD853A]" : ""
             }`}
             onClick={() => setIsActive("contact")}
