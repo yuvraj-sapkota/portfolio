@@ -9,11 +9,11 @@ const HeaderSection = () => {
         <div className="border py-[8px] px-[24px] rounded-full font-bold">
           <p>Hello!</p>
         </div>
-        <div className="text-center text-4xl md:text-[48px] lg:text-[85px] font-extralight font-serif tracking-tighter ">
+        <div className="text-center text-[55px] md:text-[70px] lg:text-[85px] font-extralight font-serif tracking-tighter leading-16 md:leading-22">
           <p>
-            I'm <span className="text-[#FD853A]">Yuvraj</span> <br /> Web
-            Developer
+            I'm <span className="text-[#FD853A]">Yuvraj</span>
           </p>
+          <p>Web Developer </p>
         </div>
       </div>
 
@@ -29,7 +29,7 @@ const HeaderSection = () => {
           </p>
         </div>
         {/* image  */}
-        <div className="w-[250px] md:w-[400px] h-[250px] md:h-[400px] rounded-full bg-[#FD853A] overflow-hidden object-cover order-1 md:order-2">
+        <div className="w-[350px] md:w-[400px] h-[350px] md:h-[400px] rounded-full bg-[#FD853A] overflow-hidden object-cover order-1 md:order-2">
           <img src={me} alt="" />
         </div>
 
