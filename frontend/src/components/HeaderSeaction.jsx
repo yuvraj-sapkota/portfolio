@@ -23,7 +23,7 @@ const HeaderSection = () => {
           <div className="mb-6">
             <FaQuoteLeft />
           </div>
-          <p className="max-w-[280px] -tracking-tighter font-serif">
+          <p className="md:max-w-[280px] -tracking-tighter font-serif">
             Jenny’s Exceptional product design ensure our website’s success.
             Highly Recommended
           </p>
