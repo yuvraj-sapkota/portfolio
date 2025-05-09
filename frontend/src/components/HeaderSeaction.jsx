@@ -17,7 +17,7 @@ const HeaderSection = () => {
         </div>
       </div>
 
-      <div className="max-w-[1300px] px-4 mx-auto flex md:items-start justify-between flex-col md:flex-row items-center gap-4">
+      <div className="max-w-[1300px] px-4 mx-auto flex  flex-col md:flex-row md:items-start justify-between items-center gap-4">
         {/* quotes  */}
         <div className="order-2 md:order-1 ">
           <div className="mb-6">
@@ -34,7 +34,7 @@ const HeaderSection = () => {
         </div>
 
         {/* experience  */}
-        <div className="order-3 ">
+        <div className="order-3 mt-6 md:mt-0">
           <div className="flex items-center">
             <MdOutlineStarPurple500 className="text-[#FD853A]" />
             <MdOutlineStarPurple500 className="text-[#FD853A]" />
