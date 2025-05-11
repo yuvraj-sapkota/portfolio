@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+.custome-orange {
+  background-color: #FD853A;
+  color: white;
+  
+}
+
+
+/* .rabbit-red{
+   background-color:#ea2e0e;
+} */
