@@ -11,21 +11,21 @@ const HeaderSection = () => {
         </div>
         <div className="text-center text-[55px] md:text-[70px] lg:text-[85px] font-extralight font-serif tracking-tighter leading-16 md:leading-22">
           <p>
-            I'm <span className="text-[#FD853A]">Yuvraj</span>
+            I'm <span className="text-[#FD853A]">Yuvraj</span>,
           </p>
           <p>Web Developer </p>
         </div>
       </div>
 
-      <div className="max-w-[1300px] px-4 mx-auto flex  flex-col md:flex-row md:items-start justify-between items-center gap-4">
+      <div className="max-w-[1300px] px-4 mx-auto flex  flex-col md:flex-row items-start justify-between  gap-4">
         {/* quotes  */}
         <div className="order-2 md:order-1 ">
           <div className="mb-6">
             <FaQuoteLeft />
           </div>
-          <p className="md:max-w-[280px] -tracking-tighter font-serif">
-            Jenny’s Exceptional product design ensure our website’s success.
-            Highly Recommended
+          <p className="md:max-w-[200px] -tracking-tighter font-serif">
+            Yuvraj’s exceptional web development made our website fast,
+            functional, and beautiful. Highly recommended!
           </p>
         </div>
         {/* image  */}

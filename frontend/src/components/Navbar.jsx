@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="max-w-[1300px] mx-auto mt-[10px] mb-[25px]">
+    <div className="max-w-[1300px] mx-auto mt-[10px] mb-[25px] px-4">
       {/* Desktop Navbar */}
       <ul className="hidden md:flex justify-between items-center py-[10px] px-[10px] text-xl text-white mx-auto bg-[#171717] rounded-[82px]">
         {navItems.map((item) => (
