@@ -5,7 +5,7 @@ import { MdOutlineStarPurple500 } from "react-icons/md";
 const HeaderSection = () => {
   return (
     <>
-      <div className="mx-auto max-w-[900px] px-4   flex flex-col items-center justify-center gap-2 mb-4 md:mb-[40px] ">
+      <div className="mx-auto mt-28 max-w-[900px] px-4   flex flex-col items-center justify-center gap-2 mb-4 md:mb-[40px] ">
         <div className="border py-[8px] px-[24px] rounded-full font-bold">
           <p>Hello!</p>
         </div>
@@ -23,20 +23,14 @@ const HeaderSection = () => {
           <div className="mb-6">
             <FaQuoteLeft />
           </div>
-          <p className="max-w-[400px] md:max-w-[200px] -tracking-tighter font-serif">
+          <p className="max-w-[400px] md:max-w-[180px] -tracking-tighter font-serif">
             Yuvraj’s exceptional web development made our website fast,
             functional, and beautiful. Highly recommended!
           </p>
         </div>
         {/* image  */}
-        <div className="relative border border-red-500">
-          <div className="w-[350px] md:w-[400px] h-[350px] md:h-[400px] rounded-full bg-[#FD853A] overflow-hidden object-cover order-1 md:order-2">
-            <img src={me} alt="" />
-          </div>
-          <div className="absolute bottom-0 right-1/2 rounded-full bg-orange-200 p-1">
-            <button className="custome-orange">Portfolio</button>
-            <button>Hire me</button>
-          </div>
+        <div className="w-[300px] md:w-[350px] h-[300px] md:h-[350px] rounded-full bg-[#FD853A] overflow-hidden object-cover order-1 md:order-2">
+          <img src={me} alt="" />
         </div>
 
         {/* experience  */}
@@ -52,7 +46,12 @@ const HeaderSection = () => {
             <span className="font-normal text-sm text-end"> Experience </span>
           </p>
         </div>
+
       </div>
+        <div className="flex items-center justify-center mt-4 py-2 px-4 w-fit mx-auto rounded-full bg-black/10 backdrop-blur-md">
+          <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium">Portfolio </button>
+          <button className="rounded-full px-4 py-2 text-black text-2xl ">Hire Me</button>
+        </div>
     </>
   );
 };
