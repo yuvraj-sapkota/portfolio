@@ -1,11 +1,12 @@
 import { FaQuoteLeft } from "react-icons/fa";
 import me from "../assets/images/me.png";
 import { MdOutlineStarPurple500 } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 
 const HeaderSection = () => {
   return (
     <>
-      <div className="mx-auto mt-28 max-w-[900px] px-4   flex flex-col items-center justify-center gap-2 mb-4 md:mb-[40px] ">
+      <div className="mx-auto mt-20 max-w-[900px] px-4   flex flex-col items-center justify-center gap-2 mb-4 md:mb-[40px] ">
         <div className="border py-[8px] px-[24px] rounded-full font-bold">
           <p>Hello!</p>
         </div>
@@ -48,8 +49,8 @@ const HeaderSection = () => {
         </div>
 
       </div>
-        <div className="flex items-center justify-center mt-4 py-2 px-4 w-fit mx-auto rounded-full bg-black/10 backdrop-blur-md">
-          <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium">Portfolio </button>
+        <div className="flex items-center justify-center mt-4 py-2 px-4 w-fit mx-auto rounded-full bg-black/5 backdrop-blur-md">
+          <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium flex items-center justify-center gap-1">Portfolio <MdArrowOutward/> </button>
           <button className="rounded-full px-4 py-2 text-black text-2xl ">Hire Me</button>
         </div>
     </>
