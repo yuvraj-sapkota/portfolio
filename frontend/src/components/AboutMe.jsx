@@ -3,7 +3,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 const AboutMe = () => {
   return (
     <>
-      <div className="max-w-[1300px] mx-auto mt-18 px-4 ">
+      <div className="max-w-[1300px] mx-auto mt-20 px-4 ">
         <div className=" bg-[#FD853A] rounded-lg flex flex-col md:flex-row items-center justify-center gap-4  py-12 px-4">
           <div className="  bg-white rounded-2xl p-4  md:p-8 flex items-center  flex-col gap-4">
             <div className=" bg-[#FD853A] rounded-full w-48 h-48 flex items-center justify-center text-white flex-col">
