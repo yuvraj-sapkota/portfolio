@@ -49,7 +49,7 @@ const HeaderSection = () => {
         </div>
 
       </div>
-        <div className="flex items-center justify-center mt-4 py-2 px-4 w-fit mx-auto rounded-full bg-black/5 backdrop-blur-md">
+        <div className="flex flex-col md:flex-row items-center justify-center mt-4 py-2 px-4 w-fit mx-auto ">
           <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium flex items-center justify-center gap-1">Portfolio <MdArrowOutward/> </button>
           <button className="rounded-full px-4 py-2 text-black text-2xl ">Hire Me</button>
         </div>
