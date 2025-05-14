@@ -45,7 +45,7 @@ const Service = () => {
               <p className="">
                 I develop full-fledged web applications tailored to business
                 needs and user goals. From idea to deployment, I focus on clean
-                code, functionality, and performance.
+                code, functionality and performance.
               </p>
             </div>
           </div>
