@@ -35,7 +35,7 @@ const Service = () => {
               <h1 className="text-3xl font-bold">Responsive Design</h1>
               <p className="">
                 I design layouts that adapt beautifully to all screen sizes —
-                mobile, tablet, and desktop. Your website will look professional
+                mobile, tablet and desktop. Your website will look professional
                 and function flawlessly on any device.
               </p>
             </div>
