@@ -26,7 +26,7 @@ const Service = () => {
               <h1 className="text-3xl font-bold">Backend Development</h1>
               <p className="">
                 I build secure, scalable and high-performance backend systems
-                using Node.js Express, and databases. I specialize in creating
+                using Node.js, Express, and databases. I specialize in creating
                 RESTful APIs and handling server-side logic effectively.
               </p>
             </div>
