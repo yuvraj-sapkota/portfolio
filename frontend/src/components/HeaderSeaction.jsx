@@ -47,12 +47,15 @@ const HeaderSection = () => {
             <span className="font-normal text-sm text-end"> Experience </span>
           </p>
         </div>
-
       </div>
-        <div className="flex flex-col md:flex-row items-center justify-center mt-4 py-2 px-4 w-fit mx-auto ">
-          <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium flex items-center justify-center gap-1">Portfolio <MdArrowOutward/> </button>
-          <button className="rounded-full px-4 py-2 text-black text-2xl ">Hire Me</button>
-        </div>
+      <div className="flex flex-col md:flex-row items-center justify-center mt-4 py-2 px-4 w-fit mx-auto   ">
+        <button className="bg-[#FD853A] rounded-full px-4 py-2 text-white text-2xl font-medium flex items-center justify-center gap-1 cursor-pointer">
+          Portfolio <MdArrowOutward />{" "}
+        </button>
+        <button className="rounded-full px-4 py-2 text-black text-2xl ">
+          Hire Me
+        </button>
+      </div>
     </>
   );
 };
