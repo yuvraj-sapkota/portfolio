@@ -52,7 +52,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="h-96"></div>
+    
     </>
   );
 };
