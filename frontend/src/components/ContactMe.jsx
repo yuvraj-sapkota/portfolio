@@ -18,7 +18,7 @@ const ContactMe = () => {
               className="w-[400px] border border-[#FD853A] rounded-lg py-2 px-2 outline-none"
             />
             <button className="bg-[#FD853A] py-2 px-4 rounded-lg font-bold text-white  ">
-              Contact
+              Contact Me
             </button>
           </div>
         </div>
