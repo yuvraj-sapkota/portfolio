@@ -14,7 +14,7 @@ const ContactMe = () => {
           <div className="mt-12 flex items-center flex-col md:flex-row justify-center gap-3">
             <input
               type="text"
-              placeholder="Enter you email"
+              placeholder="Enter your email"
               className="w-[400px] border border-[#FD853A] rounded-lg py-2 px-2 outline-none"
             />
             <button className="bg-[#FD853A] py-2 px-4 rounded-lg font-bold text-white  ">
