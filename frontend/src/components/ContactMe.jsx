@@ -7,8 +7,7 @@ const ContactMe = () => {
             <h1 className="text-3xl font-bold ">Let's Design together</h1>
             <p className="tracking-tight text-center mt-4">
               I'm always excited to collaborate on new projects or ideas.
-              Whether you have a question or just want to say hi, feel free to
-              reach out!
+              Whether you have a question or just want to say hi,
             </p>
           </div>
           <div className="mt-12 flex items-center flex-col md:flex-row justify-center gap-3">
